@@ -16,3 +16,30 @@ class AvaliacaoReview(BaseModel):
     dias_entrega: int = Field(description='quantos dias para entrega do produto')
     percepcao_valor: list[str] = Field(description='extraia qualquer frase sobre o valor ou preço do produto. retorne '
                                                    'uma lista')
+
+
+class Categorizador(BaseModel):
+    """Categoriza as perguntas dos alunos do ensino fundamental"""
+    area_conhecimento: str = Field(description='A área de conhecimento da pergunta feita pelo aluno. \
+    Deve ser "física", "matemática" ou "história". Caso não se encaixe em nenhuma delas, retorne "outra"')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
