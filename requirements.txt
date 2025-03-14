@@ -3,4 +3,8 @@ python-dotenv
 langchain-community
 langchain-huggingface
 pydantic
-
+pypdf
+langchain
+yt_dlp
+pydub
+beautifulsoup4
