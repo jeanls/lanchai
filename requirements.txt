@@ -8,3 +8,5 @@ langchain
 yt_dlp
 pydub
 beautifulsoup4
+chromadb
+langchain-chroma
